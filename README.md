@@ -29,6 +29,10 @@ To build baseline model, run in command line:
     R --vanilla < features.R
     R --vanilla < baseline.R
 
-You may find baseline model ready for submission in `data/submit` directory.
+You may now find baseline prediction for the test dataset in `data/submit`
+directory. Of cause, it's only a baseline, so it doesn't pass threshold.
+
+Submit your predictions [on this page](http://sh2014.org/online/). And remember,
+sharing your code is prohibited by the rules of competition.
 
 Good luck!
