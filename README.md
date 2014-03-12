@@ -17,16 +17,18 @@ Extract source data files into `./data/src/`. There must be 3 files provided:
 * `train_content.csv`
 * `train_likes.csv`
 
-The details on where to find source data might be found [here](http://sh2014.org/task/)
+The details on where to get source data might be found [here](http://sh2014.org/task/)
 
 To build baseline model, run in command line:
 
     git clone https://github.com/snahackathon/sh2014.git
-    cd ./sh2014/R
+    cd ./sh2014
+    #<unzip data to ./data>
+    cd R
     R --vanilla < prepare.R
     R --vanilla < features.R
     R --vanilla < baseline.R
 
-Baseline model ready for submission will be stored in `data/submit` directory.
+You may find baseline model ready for submission in `data/submit` directory.
 
 Good luck!
