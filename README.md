@@ -30,7 +30,7 @@ To build baseline model, run in command line:
     R --vanilla < baseline.R
 
 You may now find baseline prediction for the test dataset in `data/submit`
-directory. Of cause, it's only a baseline, so it doesn't pass threshold.
+directory. Of course, it's only a baseline, so it doesn't pass threshold.
 
 Submit your predictions [on this page](http://sh2014.org/online/). And remember,
 sharing your code is prohibited by the rules of competition.
